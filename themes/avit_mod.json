@@ -1,0 +1,81 @@
+{
+  "blocks": [{
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+          "type": "path",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "",
+            "style": "short"
+          }
+        },
+        {
+          "type": "shell",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#007ACC>[</> ",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "python",
+          "style": "text",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "  "
+          }
+        },
+        {
+          "type": "node",
+          "style": "text",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "  "
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#007ACC",
+          "properties": {
+            "display_stash_count": true,
+            "display_upstream_icon": true
+          }
+        },
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "#B5B50D"
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#C94A16",
+          "properties": {
+            "prefix": "x"
+          }
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+        "type": "text",
+        "style": "plain",
+        "foreground": "#007ACC",
+        "properties": {
+          "prefix": "",
+          "text": "\uE602"
+        }
+      }]
+    }
+  ],
+  "final_space": true
+}
