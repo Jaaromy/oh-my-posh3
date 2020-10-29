@@ -1,10 +1,8 @@
 {
-  "blocks": [
-    {
+  "blocks": [{
       "type": "prompt",
       "alignment": "left",
-      "segments": [
-        {
+      "segments": [{
           "type": "path",
           "style": "plain",
           "foreground": "#ffffff",
@@ -53,22 +51,13 @@
           "foreground": "#B5B50D"
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 091d617... Add Time to avit_mod.json
           "type": "time",
           "style": "plain",
           "properties": {
             "time_format": "3:04:05 PM"
           }
-        },
+        },        
         {
-<<<<<<< HEAD
-=======
->>>>>>> 25cad7f... Re-add avit_mod
-=======
->>>>>>> 091d617... Add Time to avit_mod.json
           "type": "exit",
           "style": "plain",
           "foreground": "#C94A16",
@@ -84,8 +73,7 @@
     {
       "type": "prompt",
       "alignment": "left",
-      "segments": [
-        {
+      "segments": [{
         "type": "text",
         "style": "plain",
         "foreground": "#007ACC",
@@ -93,8 +81,7 @@
           "prefix": "",
           "text": "\uE602"
         }
-      }
-    ]
+      }]
     }
   ],
   "final_space": true
