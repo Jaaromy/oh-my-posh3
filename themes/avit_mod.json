@@ -56,7 +56,7 @@
           "properties": {
             "time_format": "3:04:05 PM"
           }
-        },        
+        },
         {
           "type": "exit",
           "style": "plain",
