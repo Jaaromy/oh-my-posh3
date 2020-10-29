@@ -53,6 +53,7 @@
           "foreground": "#B5B50D"
         },
         {
+<<<<<<< HEAD
           "type": "time",
           "style": "plain",
           "properties": {
@@ -60,6 +61,8 @@
           }
         },
         {
+=======
+>>>>>>> 25cad7f... Re-add avit_mod
           "type": "exit",
           "style": "plain",
           "foreground": "#C94A16",
