@@ -54,6 +54,9 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 091d617... Add Time to avit_mod.json
           "type": "time",
           "style": "plain",
           "properties": {
@@ -61,8 +64,11 @@
           }
         },
         {
+<<<<<<< HEAD
 =======
 >>>>>>> 25cad7f... Re-add avit_mod
+=======
+>>>>>>> 091d617... Add Time to avit_mod.json
           "type": "exit",
           "style": "plain",
           "foreground": "#C94A16",
