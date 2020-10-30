@@ -1,8 +1,10 @@
 {
-  "blocks": [{
+  "blocks": [
+    {
       "type": "prompt",
       "alignment": "left",
-      "segments": [{
+      "segments": [
+        {
           "type": "path",
           "style": "plain",
           "foreground": "#ffffff",
@@ -73,7 +75,8 @@
     {
       "type": "prompt",
       "alignment": "left",
-      "segments": [{
+      "segments": [
+        {
         "type": "text",
         "style": "plain",
         "foreground": "#007ACC",
@@ -81,7 +84,8 @@
           "prefix": "",
           "text": "\uE602"
         }
-      }]
+      }
+    ]
     }
   ],
   "final_space": true
