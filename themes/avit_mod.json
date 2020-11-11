@@ -1,41 +1,14 @@
 {
-  "blocks": [
-    {
+  "blocks": [{
       "type": "prompt",
       "alignment": "left",
-      "segments": [
-        {
+      "segments": [{
           "type": "path",
           "style": "plain",
           "foreground": "#ffffff",
           "properties": {
             "prefix": "",
             "style": "short"
-          }
-        },
-        {
-          "type": "shell",
-          "style": "plain",
-          "foreground": "#ffffff",
-          "properties": {
-            "prefix": "<#007ACC>[</> ",
-            "postfix": "<#007ACC>]</>"
-          }
-        },
-        {
-          "type": "python",
-          "style": "text",
-          "foreground": "#ffffff",
-          "properties": {
-            "prefix": "  "
-          }
-        },
-        {
-          "type": "node",
-          "style": "text",
-          "foreground": "#ffffff",
-          "properties": {
-            "prefix": "  "
           }
         },
         {
@@ -53,18 +26,46 @@
           "foreground": "#B5B50D"
         },
         {
-          "type": "time",
-          "style": "plain",
-          "properties": {
-            "time_format": "3:04:05 PM"
-          }
-        },
-        {
           "type": "exit",
           "style": "plain",
           "foreground": "#C94A16",
           "properties": {
             "prefix": "x"
+          }
+        }
+      ]
+    }, {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [{
+          "type": "time",
+          "style": "plain",
+          "properties": {
+            "time_format": "3:04:05 PM",
+            "postfix": " \uF017 "
+          }
+        },
+        {
+          "type": "shell",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#007ACC>[</> ",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "python",
+          "style": "text",
+          "properties": {
+            "prefix": " \uE235 "
+          }
+        },
+        {
+          "type": "node",
+          "style": "text",
+          "properties": {
+            "prefix": " \uE718 "
           }
         }
       ]
@@ -75,8 +76,7 @@
     {
       "type": "prompt",
       "alignment": "left",
-      "segments": [
-        {
+      "segments": [{
         "type": "text",
         "style": "plain",
         "foreground": "#007ACC",
@@ -84,8 +84,7 @@
           "prefix": "",
           "text": "\uE602"
         }
-      }
-    ]
+      }]
     }
   ],
   "final_space": true

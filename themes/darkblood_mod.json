@@ -1,0 +1,104 @@
+{
+  "blocks": [{
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+          "type": "time",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "time_format": "3:04:05 PM",
+            "prefix": "<#007ACC>\u250F[</>",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "shell",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#007ACC>[</> ",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "python",
+          "style": "text",
+          "properties": {
+            "prefix": "<#007ACC>[</>\uE235 ",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "node",
+          "style": "text",
+          "properties": {
+            "prefix": "<#007ACC>[</>\uE718 ",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#007ACC>[</>",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#007ACC>[</>",
+            "postfix": "<#007ACC>]</>"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "<#007ACC>[x</>",
+            "postfix": "<#007ACC>]</>"
+          }
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+        "type": "path",
+        "style": "plain",
+        "foreground": "#ffffff",
+        "properties": {
+          "style": "short",
+          "prefix": "<#007ACC>\u2523[</>",
+          "postfix": "<#007ACC>]</>"
+        }
+      }]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+        "type": "text",
+        "style": "plain",
+        "foreground": "#007ACC",
+        "properties": {
+          "prefix": "\u2517",
+          "text": "\uE602"
+        }
+      }]
+    }
+  ],
+  "final_space": false
+}
